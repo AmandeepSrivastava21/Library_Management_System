@@ -52,6 +52,7 @@ public class Admin extends Book{
 			   }
 
 			  book = Arrays.copyOf(book, i);
+			  System.out.println("book removed successfully");
 	    }
 	}
 	public void showAllBooks() {
